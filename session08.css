@@ -1,0 +1,292 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Candara, Calibri, Segoe, Segoe UI, Optima, Arial, sans-serif;
+    color: #231651;
+}
+
+/* NAVBAR SECTION CSS*/
+.navbar-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 150px;
+    box-shadow: 1px 3px 7px 1px rgba(107, 103, 103, 0.57);
+    -webkit-box-shadow: 1px 3px 7px 1px rgba(107, 103, 103, 0.57);
+    -moz-box-shadow: 1px 3px 7px 1px rgba(107, 103, 103, 0.57);
+    margin-bottom: 10px;
+}
+
+.navbar-wrapper .logo img {
+    width: 170px;
+}
+
+.navbar-wrapper .main-nav {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.navbar-wrapper .main-nav div,
+.navbar-wrapper .languge {
+    font-weight: 500px;
+}
+
+.navbar-wrapper .languge {
+    padding: 5px 10px;
+    height: 30px;
+    background-color: #f8f7fa;
+    border: none;
+    border-radius: 5px;
+}
+
+/* HERO SECTION CSS */
+
+.hero-section {
+    display: flex;
+    background-image: url(https://rikkei.edu.vn/wp-content/uploads/2024/01/bg-home1.png);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    padding: 100px 150px;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.hero-section .hero-img {
+    width: 400px;
+}
+
+.hero-section .main-content-title {
+    font-size: 30px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+.hero-section .benefit-list {
+    list-style-type: none;
+}
+
+.hero-section .benefit-list li {
+    margin-bottom: 14px;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+}
+
+.hero-section .main-content-wrapper .benefit-list li img {
+    margin-right: 5px;
+}
+
+.hero-section .btn-group .btn {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    margin-right: 10px;
+    background-color: #bc2228;
+    color: white;
+}
+
+.hero-section .btn-group .test-btn {
+    border: 1px solid #c1bcd1;
+    background-color: transparent;
+    color: #231651;
+}
+
+/* -------BENEFIT SECTION CSS------ */
+.benefit-section {
+    position: relative;
+}
+
+.benefit-section .benefit-wrapper {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    position: absolute;
+    left: 50%;
+    top: -80px;
+    transform: translateX(-50%);
+}
+
+.benefit-section .benefit-item {
+    border: 1px solid #c1bcd1;
+    padding: 20px;
+    text-align: center;
+    border-radius: 5px;
+    width: 230px;
+    background-color: white;
+    box-shadow: 1px -6px 20px -4px rgba(138, 124, 132, 0.57);
+    -webkit-box-shadow: 1px -6px 20px -4px rgba(138, 124, 132, 0.57);
+    -moz-box-shadow: 1px -6px 20px -4px rgba(138, 124, 132, 0.57);
+
+}
+
+.benefit-section .benefit-item h3 {
+    font-size: 16px;
+    font-weight: 450;
+    color: rgb(176, 29, 29);
+    margin-bottom: 20px;
+}
+
+.benefit-section .benefit-item p {
+    font-size: 14px;
+}
+
+/* CENTER SECTION CSS */
+.center-section {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    padding: 150px 200px;
+    background-color: #f8f7fa;
+
+}
+
+.center-section .center-img {
+    width: 420px;
+}
+
+.center-section .center-text {
+    padding-top: 50px;
+}
+
+.center-section .center-text h3 {
+    color: #bc2228;
+    margin-bottom: 15px;
+}
+
+.center-section .center-text p {
+    font-weight: 400;
+    font-size: 14px;
+}
+
+/* MAIN SECTION CSS */
+.main.section {
+    display: grid;
+    place-content: center;
+}
+
+.main-section h3 {
+    padding: 50px 200px 20px;
+    color: #bc2228;
+}
+
+.main-section .main-content {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 0 200px 50px;
+
+}
+
+.main-section .main-img {
+    width: 30px;
+}
+
+.main-section .main-wrapper h2 {
+    color: #bc2228;
+    font-size: 16px;
+}
+
+.main-section .main-wrapper p {
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+.main-section .main-wrapper {
+    border: none;
+    padding: 10px;
+}
+
+.main-section .button-group {
+    display: flex;
+    justify-content: center;
+    margin: 50px 0;
+}
+
+.main-section .button-group .button {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    margin-right: 10px;
+    background-color: #bc2228;
+    color: white;
+}
+
+.main-section .button-group .test-button {
+    border: 1px solid #c1bcd1;
+    background-color: transparent;
+    color: #231651;
+}
+
+.content-section {
+    display: grid;
+    place-content: center;
+    background: #f8f7fa;
+    padding: 0 200px;
+}
+
+.content-section h3 {
+    color: #bc2228;
+    margin: 50px 0 20px;
+}
+
+.content-section .content-wrapper {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    width: 1000px;
+    padding: 10px;
+}
+
+.content-section .content-item {
+    border: 1px solid white;
+    background-color: white;
+    padding: 10px;
+}
+
+.content-item .content-list {
+    list-style-type: none;
+}
+
+.content-section .content-item h2 {
+    font-size: 16px;
+}
+
+.content-section .content-list li {
+    font-size: 14px;
+}
+
+.content-section .content-list img {
+    width: 20px;
+    margin: 5px;
+}
+
+.content-section .bn-group {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px 0;
+}
+
+.content-section .bn-group .bn {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    margin-right: 10px;
+    background-color: #bc2228;
+    color: white;
+}
+
+.content-section .bn-group .test-bn {
+    border: 1px solid #c1bcd1;
+    background-color: transparent;
+    color: #231651;
+}
+
+.content-section .content-item:hover {
+    background-color: #bc2228;
+    color: white;
+}
